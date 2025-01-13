@@ -88,4 +88,4 @@ O aplicativo permite o gerenciamento completo de um catálogo de livros, incluin
 
 1. Clone o repositório
 ```bash
-git clone [url-do-repositorio]
+git clone [https://github.com/ViniciusProgrammer/IMD0509-IMD-BOOKS]
