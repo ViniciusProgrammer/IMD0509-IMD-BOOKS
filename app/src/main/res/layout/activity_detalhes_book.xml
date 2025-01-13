@@ -11,7 +11,6 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <!-- Cabeçalho -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,7 +21,6 @@
             android:textColor="@color/primary"
             android:layout_marginBottom="24dp" />
 
-        <!-- Imagem de Capa -->
         <ImageView
             android:id="@+id/imageViewCapa"
             android:layout_width="200dp"
@@ -31,7 +29,6 @@
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"/>
 
-        <!-- Título -->
         <TextView
             android:id="@+id/textViewTitulo"
             android:layout_width="match_parent"
@@ -41,7 +38,6 @@
             android:text="Título do Livro"
             android:layout_marginBottom="8dp" />
 
-        <!-- Autor -->
         <TextView
             android:id="@+id/textViewAutor"
             android:layout_width="match_parent"
@@ -50,7 +46,6 @@
             android:text="Autor do Livro"
             android:layout_marginBottom="8dp" />
 
-        <!-- Editora -->
         <TextView
             android:id="@+id/textViewEditora"
             android:layout_width="match_parent"
@@ -59,7 +54,6 @@
             android:text="Editora"
             android:layout_marginBottom="8dp" />
 
-        <!-- ISBN -->
         <TextView
             android:id="@+id/textViewISBN"
             android:layout_width="match_parent"
@@ -68,7 +62,6 @@
             android:text="ISBN"
             android:layout_marginBottom="8dp" />
 
-        <!-- Descrição -->
         <TextView
             android:id="@+id/textViewDescricao"
             android:layout_width="match_parent"

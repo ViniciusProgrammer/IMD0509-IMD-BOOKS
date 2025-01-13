@@ -31,7 +31,6 @@
             android:textColor="@color/text_secondary"
             android:layout_marginBottom="32dp" />
 
-        <!-- Campo de usuário -->
         <EditText
             android:id="@+id/editTextUsername"
             android:layout_width="match_parent"
@@ -41,7 +40,6 @@
             android:layout_marginBottom="16dp"
             android:inputType="textEmailAddress" />
 
-        <!-- Campo de senha -->
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
@@ -51,7 +49,6 @@
             android:layout_marginBottom="24dp"
             android:inputType="textPassword" />
 
-        <!-- Botão de Login -->
         <Button
             android:id="@+id/buttonLogin"
             android:layout_width="match_parent"
@@ -62,7 +59,6 @@
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/primary" />
 
-        <!-- Botão de Cadastro -->
         <Button
             android:id="@+id/buttonSignUp"
             android:layout_width="match_parent"
@@ -74,7 +70,6 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:textColor="@color/primary" />
 
-        <!-- Botão de Resetar Senha -->
         <Button
             android:id="@+id/buttonResetPassword"
             android:layout_width="match_parent"

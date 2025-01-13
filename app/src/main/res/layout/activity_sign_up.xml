@@ -30,7 +30,6 @@
             android:textColor="@color/text_secondary"
             android:layout_marginBottom="32dp" />
 
-        <!-- Campo de usuário -->
         <EditText
             android:id="@+id/editTextUsername"
             android:layout_width="match_parent"
@@ -40,7 +39,6 @@
             android:layout_marginBottom="16dp"
             android:inputType="textPersonName" />
 
-        <!-- Campo de senha -->
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
@@ -50,7 +48,6 @@
             android:layout_marginBottom="24dp"
             android:inputType="textPassword" />
 
-        <!-- Botão de Cadastro -->
         <Button
             android:id="@+id/buttonSignUp"
             android:layout_width="match_parent"

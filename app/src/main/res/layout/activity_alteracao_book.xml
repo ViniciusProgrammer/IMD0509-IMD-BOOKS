@@ -40,7 +40,6 @@
             android:layout_marginBottom="16dp"
             android:inputType="number" />
 
-        <!-- Botão de Busca -->
         <Button
             android:id="@+id/buttonBuscar"
             android:layout_width="match_parent"
@@ -51,7 +50,6 @@
             android:layout_marginBottom="24dp"
             android:backgroundTint="@color/primary" />
 
-        <!-- Campo de Título -->
         <EditText
             android:id="@+id/editTextTitulo"
             android:layout_width="match_parent"
@@ -61,7 +59,6 @@
             android:layout_marginBottom="16dp"
             android:inputType="text" />
 
-        <!-- Campo de Autor -->
         <EditText
             android:id="@+id/editTextAutor"
             android:layout_width="match_parent"
@@ -71,7 +68,6 @@
             android:layout_marginBottom="16dp"
             android:inputType="text" />
 
-        <!-- Campo de Editora -->
         <EditText
             android:id="@+id/editTextEditora"
             android:layout_width="match_parent"
@@ -81,7 +77,6 @@
             android:layout_marginBottom="16dp"
             android:inputType="text" />
 
-        <!-- Campo de Descrição -->
         <EditText
             android:id="@+id/editTextDescricao"
             android:layout_width="match_parent"
@@ -93,7 +88,6 @@
             android:minLines="3"
             android:gravity="top" />
 
-        <!-- Campo de URL da Imagem -->
         <EditText
             android:id="@+id/editTextImagemUrl"
             android:layout_width="match_parent"
@@ -103,7 +97,6 @@
             android:layout_marginBottom="24dp"
             android:inputType="textUri" />
 
-        <!-- Botão de Salvar -->
         <Button
             android:id="@+id/buttonSalvar"
             android:layout_width="match_parent"
