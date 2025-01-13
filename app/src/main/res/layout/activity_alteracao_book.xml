@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar Livro"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digite o ISBN para buscar o livro"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Campo de ISBN -->
+        <EditText
+            android:id="@+id/editTextISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ISBN para Buscar"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Botão de Busca -->
+        <Button
+            android:id="@+id/buttonBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/primary" />
+
+        <!-- Campo de Título -->
+        <EditText
+            android:id="@+id/editTextTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <!-- Campo de Autor -->
+        <EditText
+            android:id="@+id/editTextAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Autor"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <!-- Campo de Editora -->
+        <EditText
+            android:id="@+id/editTextEditora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Editora"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <!-- Campo de Descrição -->
+        <EditText
+            android:id="@+id/editTextDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descrição"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top" />
+
+        <!-- Campo de URL da Imagem -->
+        <EditText
+            android:id="@+id/editTextImagemUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL da Imagem"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:inputType="textUri" />
+
+        <!-- Botão de Salvar -->
+        <Button
+            android:id="@+id/buttonSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar Alterações"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:backgroundTint="@color/primary" />
+
+    </LinearLayout>
+</ScrollView>

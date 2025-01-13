@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores principais -->
+    <color name="primary">#1E88E5</color>         <!-- Azul principal -->
+    <color name="primary_dark">#1565C0</color>    <!-- Azul escuro -->
+    <color name="primary_light">#64B5F6</color>   <!-- Azul claro -->
+    <color name="accent">#FFA726</color>          <!-- Laranja accent -->
+
+    <!-- Cores neutras -->
+    <color name="background">#FFFFFF</color>      <!-- Fundo branco -->
+    <color name="surface">#F5F5F5</color>         <!-- Superfície cinza claro -->
+    <color name="text_primary">#212121</color>    <!-- Texto principal -->
+    <color name="text_secondary">#757575</color>  <!-- Texto secundário -->
+
+    <!-- Cores de feedback -->
+    <color name="success">#4CAF50</color>         <!-- Verde sucesso -->
+    <color name="error">#F44336</color>           <!-- Vermelho erro -->
+</resources>

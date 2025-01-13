@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gerenciamento de Livros"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha uma opção para continuar"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Botão de Cadastro -->
+        <Button
+            android:id="@+id/buttonCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Livros"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/primary" />
+
+        <!-- Botão de Listagem -->
+        <Button
+            android:id="@+id/buttonListagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listar Livros"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/primary" />
+
+        <!-- Botão de Alteração -->
+        <Button
+            android:id="@+id/buttonAlteracao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alterar Livros"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/primary" />
+
+        <!-- Botão de Exclusão -->
+        <Button
+            android:id="@+id/buttonExclusao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excluir Livros"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:backgroundTint="@color/primary" />
+
+    </LinearLayout>
+</ScrollView>
