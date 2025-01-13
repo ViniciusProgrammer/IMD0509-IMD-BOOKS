@@ -31,17 +31,58 @@ O aplicativo permite o gerenciamento completo de um catálogo de livros, incluin
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Android Studio
-- Kotlin
-- SQLite para persistência de dados
-- SharedPreferences para dados de login
-- RecyclerView para listagem de livros
-- Glide/Picasso para carregamento de imagens
-- Intents para navegação entre telas
+## 📱 Core
+- **Android SDK**
+- **XML** para layouts
+- **Material Design**
 
-## 📱 Screenshots
+## 📚 Bibliotecas e Frameworks
+- **AndroidX**
+ - RecyclerView
+ - AppCompat
+ - ConstraintLayout
+- **Glide/Picasso** para carregamento de imagens
 
-[Adicione screenshots do seu aplicativo aqui]
+## 💾 Armazenamento
+- **SQLite** - Banco de dados local
+- **SharedPreferences** - Armazenamento de dados de login
+
+## 🎨 Componentes UI
+### Layouts
+- ScrollView
+- LinearLayout 
+- ConstraintLayout
+- RecyclerView + Adapter
+
+### Elementos
+- ImageView
+- TextView
+- EditText
+- Button
+
+## 🔧 Recursos
+- **Intents** - Navegação entre telas
+- Sistema de cores personalizado
+- Drawables e recursos de design
+- Tools e namespaces Android
+
+## 📐 Design
+- Sistema de dimensionamento (dp/sp)
+- Material Design Components
+- Layouts responsivos
+
+## ⌨️ Tipos de Input
+- textEmailAddress
+- textPassword  
+- textPersonName
+- textMultiLine
+- textUri
+- number
+
+## ✅ Sistema de Validação
+- InputType
+- Constraints de layout
+- Validação de formulários
 
 ## ⚙️ Configuração do Projeto
 
