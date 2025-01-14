@@ -84,8 +84,20 @@ O aplicativo permite o gerenciamento completo de um catálogo de livros, incluin
 - Constraints de layout
 - Validação de formulários
 
-## ⚙️ Configuração do Projeto
+## 🚀 Preparação do Ambiente
 
-1. Clone o repositório
+#### 1. Faça o download do repositório utilizando o comando:
+
 ```bash
 git clone git@github.com:ViniciusProgrammer/IMD0509-IMD-BOOKS.git
+```
+
+#### 2. Abra o projeto no Android Studio e configure o ambiente, se necessário..
+#### 3. Conecte um dispositivo Android físico ou inicie um emulador compatível.
+#### 4. Realize a compilação e execute o aplicativo diretamente pelo Android Studio.
+
+#### 📲 Como Usar
+
+#### 1. Inicie o aplicativo no dispositivo ou emulador.
+#### 2. Crie uma conta ou entre com suas credenciais existentes.
+#### 3. Utilize a tela principal para gerenciar os livros: adicione, visualize, edite ou exclua conforme necessário.
