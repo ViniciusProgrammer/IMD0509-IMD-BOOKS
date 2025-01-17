@@ -1,4 +1,4 @@
-package com.example.imdbookstore.adapter
+package com.example.imd_book.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -10,8 +10,8 @@ import android.os.Looper
 import android.view.animation.AnimationUtils
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.imdbookstore.model.Livro
-import com.example.imdbookstore.R
+import com.example.imd_book.model.Livro
+import com.example.imd_book.R
 
 class LivroAdapter(
     private val livros: List<Livro>,

@@ -1,13 +1,13 @@
-package com.example.imdbookstore
+package com.example.imd_book
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.imdbookstore.model.*
-import com.example.imdbookstore.db.*
-import com.example.imdbookstore.adapter.*
+import com.example.imd_book.model.*
+import com.example.imd_book.db.*
+import com.example.imd_book.adapter.*
 
 class ListaLivrosActivity : AppCompatActivity() {
 

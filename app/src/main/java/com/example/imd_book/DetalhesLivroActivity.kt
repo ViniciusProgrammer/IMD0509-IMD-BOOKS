@@ -1,11 +1,11 @@
-package com.example.imdbookstore
+package com.example.imd_book
 
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.example.imdbookstore.db.*
+import com.example.imd_book.db.*
 
 class DetalhesLivroActivity : AppCompatActivity() {
 

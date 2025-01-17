@@ -1,4 +1,4 @@
-package com.example.imdbookstore
+package com.example.imd_book
 
 import org.junit.Test
 

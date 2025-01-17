@@ -1,4 +1,4 @@
-package com.example.imdbookstore
+package com.example.imd_book
 
 import android.content.ContentValues
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.imdbookstore.db.*
+import com.example.imd_book.db.*
 
 class CadastroLivroActivity : AppCompatActivity() {
 

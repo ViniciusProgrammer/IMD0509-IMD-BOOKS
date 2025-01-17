@@ -1,11 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.IMDBookStore" parent="Theme.Design.Light" >
+    <style name="Base.Theme.imd_book" parent="Theme.Design.Light" >
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <!-- Primary colors -->
 
     </style>
 
-    <style name="Theme.IMDBookStore" parent="Base.Theme.IMDBookStore" />
+    <style name="Theme.imd_book" parent="Base.Theme.imd_book" />
 </resources>

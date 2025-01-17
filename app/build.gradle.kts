@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.imdbookstore"
+    namespace = "com.example.imd_book"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.imdbookstore"
+        applicationId = "com.example.imd_book"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

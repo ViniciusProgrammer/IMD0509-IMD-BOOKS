@@ -1,4 +1,4 @@
-package com.example.imdbookstore.model
+package com.example.imd_book.model
 
 // Modelo de Livro
 data class Livro(
